@@ -1,7 +1,7 @@
 # OpenWeatherApp
 Simple android weather app for AstroPay
 
-![](astropay.svg)
+![](astropay.png)
 
 ## 🏗️️ Built with
 
