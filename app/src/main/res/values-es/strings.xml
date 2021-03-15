@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Weather App</string>
+    <string name="loading">Cargando...</string>
+    <string name="degrees_format">%s°C</string>
+    <string name="max_min_temp_format">↑%s°C  ↓%s°C</string>
+    <string name="wind_format">%s km/h</string>
+</resources>

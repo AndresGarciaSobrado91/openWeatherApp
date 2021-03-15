@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="item_title_style">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textSize">@dimen/item_title_text_size</item>
+    </style>
+</resources>
