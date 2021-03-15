@@ -10,6 +10,7 @@ Thank you!
 
 | What            | How                        |
 |----------------    |------------------------------    |
+| 📝  Language    | [Kotlin](https://kotlinlang.org/)                            |
 | 🏗  Architecture    | [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)                            |
 | 🧠  API    | [OpenWeather](https://openweathermap.org/current)                            |
 | 💉  DI                | [Dagger2](https://github.com/google/dagger)                        |
