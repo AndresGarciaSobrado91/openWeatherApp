@@ -1,10 +1,7 @@
 # OpenWeatherApp
-Simple android weather app for AstroPay
+Simple android weather app 
 
-<center> <img src="https://user-images.githubusercontent.com/48637183/111089029-c8cc5900-8508-11eb-8c20-0bd894257868.png" width="90%"></img>  </center>
-
-Please note that I was not focused on UI but on coding and architecture patterns. This app has a lot of unnecesary code just to show AstroPay some code organization.
-Thank you!
+Please note that I was not focused on UI but on coding and architecture patterns. This app has a lot of unnecesary code (overkill) just to show some code organization.
 
 ## 🏗️️ Built with
 
