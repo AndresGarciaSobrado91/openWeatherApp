@@ -1,6 +1,6 @@
 package com.garcia.openweatherapp.data.remote.api
 
-import com.garcia.openweatherapp.model.CurrentWeather
+import com.garcia.openweatherapp.domain.model.CurrentWeather
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

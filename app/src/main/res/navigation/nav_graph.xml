@@ -27,7 +27,7 @@
             app:nullable="true" />
         <argument
             android:name="coord"
-            app:argType="com.garcia.openweatherapp.model.Coord"
+            app:argType="com.garcia.openweatherapp.domain.model.Coord"
             app:nullable="true" />
     </fragment>
 </navigation>

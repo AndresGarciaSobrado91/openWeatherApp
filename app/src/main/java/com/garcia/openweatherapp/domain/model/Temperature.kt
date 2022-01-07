@@ -1,4 +1,4 @@
-package com.garcia.openweatherapp.model
+package com.garcia.openweatherapp.domain.model
 
 data class Temperature(
     val temp: Int,

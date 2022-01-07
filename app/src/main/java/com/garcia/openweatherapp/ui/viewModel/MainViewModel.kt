@@ -1,15 +1,14 @@
 package com.garcia.openweatherapp.ui.viewModel
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import com.garcia.openweatherapp.domain.GetDefaultWeatherUseCase
 import com.garcia.openweatherapp.domain.GetDefaultWeatherUseCaseParams
 import com.garcia.openweatherapp.domain.GetDefaultWeatherUseCaseResult
-import com.garcia.openweatherapp.model.Coord
-import com.garcia.openweatherapp.model.CurrentWeather
-import com.garcia.openweatherapp.model.Temperature
+import com.garcia.openweatherapp.domain.model.Coord
+import com.garcia.openweatherapp.domain.model.CurrentWeather
+import com.garcia.openweatherapp.domain.model.Temperature
 import com.garcia.openweatherapp.ui.base.ScopedViewModel
 import com.garcia.openweatherapp.ui.fragment.WeatherFragmentArgs
 import kotlinx.coroutines.Dispatchers

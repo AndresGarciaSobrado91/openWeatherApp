@@ -14,7 +14,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.garcia.openweatherapp.R
 import com.garcia.openweatherapp.databinding.FragmentHomeBinding
-import com.garcia.openweatherapp.model.Coord
+import com.garcia.openweatherapp.domain.model.Coord
 import com.garcia.openweatherapp.ui.adapter.HomeUIAdapter
 import com.garcia.openweatherapp.ui.adapter.IHomeAdapter
 import com.garcia.openweatherapp.ui.base.BaseDaggerFragment

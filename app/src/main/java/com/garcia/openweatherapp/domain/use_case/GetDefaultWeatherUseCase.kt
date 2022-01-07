@@ -1,7 +1,8 @@
 package com.garcia.openweatherapp.domain
 
-import com.garcia.openweatherapp.data.repository.WeatherRepository
-import com.garcia.openweatherapp.model.CurrentWeather
+import com.garcia.openweatherapp.data.repository.WeatherRepositoryImpl
+import com.garcia.openweatherapp.domain.use_case.MediatorUseCase
+import com.garcia.openweatherapp.domain.model.CurrentWeather
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
@@ -9,7 +10,7 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 open class GetDefaultWeatherUseCase @Inject constructor(
-    private val weatherRepository: WeatherRepository,
+    private val weatherRepository: WeatherRepositoryImpl,
 ) : MediatorUseCase<GetDefaultWeatherUseCaseParams, GetDefaultWeatherUseCaseResult>() {
 
     override fun execute(parameters: GetDefaultWeatherUseCaseParams) {

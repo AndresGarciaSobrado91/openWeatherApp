@@ -1,4 +1,4 @@
-package com.garcia.openweatherapp.domain
+package com.garcia.openweatherapp.domain.use_case
 
 import androidx.lifecycle.MediatorLiveData
 

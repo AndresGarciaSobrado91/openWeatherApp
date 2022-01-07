@@ -3,7 +3,7 @@ package com.garcia.openweatherapp.di.module
 import android.content.Context
 import com.garcia.openweatherapp.MyApp
 import com.garcia.openweatherapp.data.remote.api.ApiService
-import com.garcia.openweatherapp.data.repository.WeatherRepository
+import com.garcia.openweatherapp.data.repository.WeatherRepositoryImpl
 import com.garcia.openweatherapp.domain.GetDefaultWeatherUseCase
 import com.garcia.openweatherapp.util.ui.LoadingViewManager
 import dagger.Module
@@ -21,7 +21,7 @@ class AppModule {
     @Singleton
     open fun provideWeatherRepository(
         apiService: ApiService
-    ): WeatherRepository = WeatherRepository(apiService)
+    ): WeatherRepositoryImpl = WeatherRepositoryImpl(apiService)
 
     @Singleton
     @Provides
@@ -29,6 +29,6 @@ class AppModule {
 
     @Provides
     open fun provideGetDefaultWeatherUseCase(
-        weatherRepository: WeatherRepository
+        weatherRepository: WeatherRepositoryImpl
     ): GetDefaultWeatherUseCase = GetDefaultWeatherUseCase(weatherRepository)
 }
